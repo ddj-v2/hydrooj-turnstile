@@ -1,12 +1,21 @@
 {
-  "name": "hydrooj-turnstile",
-  "version": "1.0.2",
+  "name": "@ddj-v2/hydrooj-turnstile",
+  "version": "1.0.0",
   "description": "turnstile for hydrooj",
   "main": "index.ts",
   "author": "https://github.com/Bryan0324",
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/github": "^12.0.6",
+    "@semantic-release/npm": "^13.1.5",
+    "@semantic-release/release-notes-generator": "^14.1.0",
     "@types/react": "^19.2.7",
-    "hydrooj": "^5.0.0-beta.15"
+    "hydrooj": "^5.0.0-beta.15",
+    "semantic-release": "^25.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fudan-Computer-Science/ddj-v2-ui-setting.git"
   }
 }
